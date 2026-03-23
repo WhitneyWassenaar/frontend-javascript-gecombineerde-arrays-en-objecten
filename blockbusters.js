@@ -124,11 +124,11 @@ console.log(movies[lastIndexMovies].actors[lastIndexActors]);
 
 const selectedMovie = movies[5];
 
-// if (selectedMovie.rating > 8) {
-//   console.log(`Uitstekende film!`)
-// } else {
-//   console.log(`Goede film!`)
-// }
+if (selectedMovie.rating > 8) {
+  console.log(`Uitstekende film!`)
+} else {
+  console.log(`Goede film!`)
+}
 
 
 // Opdracht 4b: Maak een if-else-if-else-statement die het woord 'Topper!' logt,
